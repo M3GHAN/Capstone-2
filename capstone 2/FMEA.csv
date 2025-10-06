@@ -1,0 +1,43 @@
+Component,Failure Mode,Severity,Occurrence,Detection,RPN
+Busbar,Lossofstructuralintegrity,7,5,9,315
+Busbar,Lossofstructuralintegrity,7,6,9,378
+Busbar,Lossofstructuralintegrity,7,5,9,315
+Busbar,Lossofelectricalcontinuity,8,4,10,320
+Busbar,Electricaldisturbances,8,4,10,320
+Bus-bar,Electricaldisturbances,8,4,8,256
+Cable,Cableintegritydefect,8,7,5,280
+Cable,Electricaloperationfailure,6,6,10,360
+Circuit Breaker,Insulationfailure,6,5,7,210
+Circuit Breaker,Wrongoperation,7,6,4,168
+Circuit Breaker,Bushingbreakdown,6,5,10,300
+Circuit Breaker,Bushingterminalhotspot,6,4,8,192
+Circuit Breaker,CBcontactsdegradation,6,5,9,270
+Transformer,Bushingbreakdown,6,4,10,240
+Transformer,Bushingterminalhotspot,6,4,7,168
+Transformer,Magnetic-coredelamination,6,4,7,168
+Transformer,Windingoverheating,7,6,7,294
+Transformer,Tapchangercontactsdegradation,6,3,9,162
+Transformer,Tankrupture,8,3,9,216
+Transformer,Windingisolationdegradationorbreakdown,6,4,10,240
+Transformer,"Distortion,loosening,orwindingdisplacement",7,5,9,315
+Transformer,Transformerexplosion,9,5,10,450
+Transformer,Coolingsystemfailure,8,3,7,168
+Human Machine Interface,Operationalfailure,5,5,10,250
+Human Machine Interface,Securityfailure,9,2,10,180
+Switch,Performancedecreased,6,7,6,252
+Switch,Operationalfailure(Switchblackout),6,6,10,360
+Switch,Operationalfailure(Switchblackout),6,5,10,300
+Switch,Network/Cyberstorm,6,4,7,168
+Switch,Poweroutage,6,3,10,180
+Sampled values,Dataerrors,6,5,10,300
+Sampled values,Poweroutages,7,3,10,210
+Sampled values,Securityfailure,10,2,10,200
+Intelligent Electronic Device,Communicationfailure,6,5,8,240
+Intelligent Electronic Device,Communicationfailure,6,4,8,192
+Intelligent Electronic Device,CommunicationFailure,6,5,7,210
+Intelligent Electronic Device,Monitoringfailure,6,5,6,180
+Intelligent Electronic Device,Controlfailure,8,7,7,392
+Intelligent Electronic Device,Poweroutages,7,3,10,210
+Intelligent Electronic Device,Securityfailure,9,3,7,189
+Opticalfiber,Fracture,4,3,10,120
+Opticalfiber,Humidityinduced,4,3,10,120

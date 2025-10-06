@@ -1,0 +1,76 @@
+Component,Failure Mode,Severity,Occurrence,Detection,RPN
+Router,Misconfigured routes,7,5,6,210
+Router,Firmware bugs,5,4,7,140
+Router,Hardware failure,9,2,4,72
+Router,DoS/DDoS attack,8,4,8,256
+Router,BGP hijacking,9,2,9,162
+Router,Route flapping,6,4,6,144
+Switch,MAC table overflow,6,3,7,126
+Switch,Broadcast storms,8,3,6,144
+Switch,Port flapping,5,4,5,100
+Switch,VLAN misconfiguration,7,5,6,210
+Switch,Power failure,9,2,4,72
+Firewall,Rule misconfiguration,7,5,6,210
+Firewall,CPU/memory overload,6,4,5,120
+Firewall,Firmware vulnerabilities,8,3,8,192
+Firewall,Failure to inspect encrypted traffic,7,4,9,252
+Firewall,Logging failure,5,4,7,140
+Load Balancer,Misconfigured rules,7,5,6,210
+Load Balancer,Node health check failure,6,4,6,144
+Load Balancer,SSL offloading issues,6,3,7,126
+Load Balancer,Single point of failure,9,2,4,72
+DNS Server,DNS cache poisoning,8,3,9,216
+DNS Server,DNS service crash,8,3,5,120
+DNS Server,Incorrect zone file,7,5,6,210
+DNS Server,External DNS unreachable,6,4,5,120
+DHCP Server,IP pool exhaustion,7,4,6,168
+DHCP Server,Rogue DHCP server,8,3,9,216
+DHCP Server,Lease time misconfig,6,5,6,180
+DHCP Server,DHCP starvation attacks,7,3,8,168
+Network Interface Card (NIC),Driver issues,6,4,6,144
+Network Interface Card (NIC),Duplex mismatch,5,4,5,100
+Network Interface Card (NIC),Link flapping,5,4,5,100
+Network Interface Card (NIC),Physical port damage,7,2,4,56
+Access Point (AP),Weak encryption (WEP),8,3,8,192
+Access Point (AP),Channel interference,6,5,5,150
+Access Point (AP),Client overload,6,4,6,144
+Access Point (AP),Rogue APs,8,3,9,216
+Modem,Signal degradation,7,4,6,168
+Modem,ISP downtime,9,3,5,135
+Modem,Incorrect configuration,7,4,6,168
+Modem,Rogue APs,8,3,9,216
+Modem,Signal degradation,7,4,6,168
+Modem,ISP downtime,9,3,5,135
+Modem,Incorrect configuration,7,4,6,168
+Modem,Firmware bugs,5,3,7,105
+Proxy Server,Dictionary resolution failure,7,4,6,168
+Proxy Server,High latency,6,4,5,120
+Proxy Server,Content filtering misconfig,6,5,6,180
+Proxy Server,Cache corruption,5,3,7,105
+VPN Gateway,Certificate/Key failure,7,3,6,126
+VPN Gateway,Tunnel failure,7,4,6,168
+VPN Gateway,User overload,6,4,5,120
+VPN Gateway,Protocol mismatch (IPSec/OpenVPN/etc.),6,4,6,144
+IDS/IPS,High false positives,5,5,6,150
+IDS/IPS,Missed signature,7,4,9,252
+IDS/IPS,Rule corruption,7,3,8,168
+IDS/IPS,Packet drop at high loads,6,4,7,168
+Network Cables,Physical cut or damage,8,2,4,64
+Network Cables,Loose connections,6,4,5,120
+Network Cables,Crosstalk/interference,5,4,6,120
+Network Cables,Wrong type (CAT5 vs CAT6),5,3,6,90
+Patch Panel,Labeling errors,6,5,6,180
+Patch Panel,Port damage,7,2,4,56
+Patch Panel,Poor cable management,5,4,6,120
+Power Supply/UPS,Battery failure,8,3,5,120
+Power Supply/UPS,Insufficient capacity,7,4,6,168
+Power Supply/UPS,No alerting,5,4,7,140
+Power Supply/UPS,Bypass wiring error,7,3,6,126
+Network Monitoring Tools,No alert threshold,5,5,7,175
+Network Monitoring Tools,SNMP misconfiguration,6,5,6,180
+Network Monitoring Tools,Agent failure,6,4,6,144
+Network Monitoring Tools,Dashboard unavailability,5,4,5,100
+Cloud-Based Network Services,API failure,7,4,6,168
+Cloud-Based Network Services,Vendor outage,9,3,5,135
+Cloud-Based Network Services,Misconfigured ACLs,7,5,6,210
+Cloud-Based Network Services,Subscription/Quota limits,6,4,6,144
